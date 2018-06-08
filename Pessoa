@@ -1,0 +1,10 @@
+
+public class Pessoa {
+    
+    // atributos significa caracteristica
+    public String nome, sobrenome, cpf;
+    public byte idade;
+    public float peso, altura;
+    public char sexo;
+    
+}
