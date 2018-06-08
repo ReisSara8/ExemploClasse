@@ -1,0 +1,49 @@
+
+import javax.swing.JOptionPane;
+
+public class Principal {
+    
+    public static void main (String[]args){
+        
+        Pessoa lucas = new Pessoa();
+        lucas.nome = "Lucas";
+        lucas.idade = 16;
+        lucas.sexo = 'm';
+        lucas.peso = 94.0f;
+        lucas.altura = 1.94f;
+        lucas.cpf = "123.456.789-10";
+        lucas.sobrenome = "Rodrigo";
+        
+        Pessoa carlos = new Pessoa();
+        carlos.nome = "Carlos";
+        carlos.idade = 18;
+        carlos.peso = 78;
+        carlos.sexo = 'm';
+        carlos.altura = 1.78f;
+        carlos.cpf = "098.765.432-11";
+        carlos.sobrenome = "Augusto";
+        
+        JOptionPane.showMessageDialog(null,
+                "Nome: " +lucas.nome
+                +"\nSobrenome: " +lucas.sobrenome
+                +"\nIdade: " +lucas.idade
+                +"\nSexo: " +lucas.sexo
+                +"\nAltura: " +lucas.altura
+                +"\nPeso: " +lucas.peso
+                +"\nCpf: " +lucas.cpf
+        );
+        
+        JOptionPane.showMessageDialog(null,
+                "Nome: " +carlos.nome
+                +"\nSobrenome: " +carlos.sobrenome
+                +"\nIdade: " +carlos.idade
+                +"\nSexo: " +carlos.sexo
+                +"\nAltura: " +carlos.altura
+                +"\nPeso: " +carlos.peso
+                +"\nCpf: " +carlos.cpf
+        );
+        
+        
+    }
+    
+}
